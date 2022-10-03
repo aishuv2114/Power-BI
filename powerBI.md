@@ -26,8 +26,9 @@ Using Power Query,
 
 ## Final Output
 
-- Created various report types such stacked bar charts, trended, gauge, KPI's and doughnut charts.
+- Created various report types such stacked bar charts, trended, gauge, KPI's
 - Used slicers to increase user interactivity and filters such as Visual Level Filters, Page Level Filters, Report Level Filters and Drill Through Filters 
+- Created custom visuals using the open source data visualization tools
 
 ![Screenshot_3](https://user-images.githubusercontent.com/113862057/193491261-32c92f79-31de-4c4a-8d94-f62963a8d394.png)
 
