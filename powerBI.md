@@ -1,13 +1,32 @@
 # Sample PowerBI Report using AdventureWorks Dataset.
 
-A powerBI report made by following the course by Maven Analytics on Udemy This report analyses data of a fictional company called AdventureWorks Cycles that has multiple products such as Cycles, Jerseys, Caps, Bottles etc. 
-This report analyses data in 3 POVs: 
+I created this dashboard as part of the bootcamp by Maven Analytics. This report analyses data of a fictional company called AdventureWorks Cycles that has multiple products such as Cycles, Jerseys, Caps, Bottles etc. 
 
 1. An executive summary
 2. Product Details 
 3. Customer Details
 
-Created a Sales Report in Power BI giving detailed insights on best-selling products and customers
-Imported data from Excel and used Power Query to transform the data
-Created a data model in Power BI and used DAX to create calculated columns and measures
-Improved user experience by applying conditional formatting, drillthrough filters and visual interactions
+## Power Query
+
+Using Power Query,
+- Imported Excel Data Sources using the GetData Feature. 
+- Cleansed Data using various features such as String Functions(Lowercase, Uppercase, Capitalize each Word, Trim, Clean, Add Prefix, Add Suffix), Date Functions, Grouping and Aggregating Data, Pivoting,Merging and Appending on the Transform tab to modify an existing column and Add Column Tab to add a new column.
+
+## Data View Tab
+
+- Created relationships between the source tables to build a snowflake schema.
+- Defined active and inactive relationships and also ensured that the relationship cardinality is one to many 
+- Also, ensured that there is a shared lookup between the two data tables to be able to represent data from both the fact tables in a single view
+- Hid the fields that aren't required in the report view
+
+![Screenshot_2](https://user-images.githubusercontent.com/113862057/193489876-88575192-bc23-4ab5-a6bc-3a2728078710.png)
+
+## DAX
+
+- Created Calculated Columns and Calculated Measures
+- Created Explicit measures to use them in other dependant calculations
+- Used complex DAX functions like calculate(),all(),filter(),iterator functions like sumx() and time intelligence functions like dateadd() to calculate Prev Month Revenue/Orders and datesinperiod()   to calculate the Rolling Revenue.
+
+## Report View
+
+
