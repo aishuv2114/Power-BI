@@ -22,9 +22,9 @@ Using Power Query,
 
 - Created Calculated Columns and Calculated Measures
 - Created Explicit measures to use them in other dependant calculations
-- Used complex DAX functions like calculate(),all(),filter(),iterator functions like sumx() and time intelligence functions like dateadd() to calculate Prev Month Revenue/Orders and datesinperiod()   to calculate the Rolling Revenue.
+- Used complex DAX functions like calculate(),all(),filter(),iterator functions like sumx() and time intelligence functions like dateadd() to calculate Prev Month Revenue/Orders and datesinperiod() to calculate the Rolling Revenue.
 
-## Report View
+## Final Output
 
 - Created various report types such stacked bar charts, trended, gauge, KPI's and doughnut charts.
 - Used slicers to increase user interactivity and filters such as Visual Level Filters, Page Level Filters, Report Level Filters and Drill Through Filters 
