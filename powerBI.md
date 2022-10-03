@@ -1,10 +1,7 @@
 # Sample PowerBI Report using AdventureWorks Dataset.
 
-I created this dashboard as part of the bootcamp by Maven Analytics. This report analyses data of a fictional company called AdventureWorks Cycles that has multiple products such as Cycles, Jerseys, Caps, Bottles etc. 
+I created this dashboard as part of the bootcamp by Maven Analytics. This report analyzes data of a fictional company called AdventureWorks Cycles that has multiple products such as Cycles, Jerseys, Caps, Bottles etc. 
 
-1. An executive summary
-2. Product Details 
-3. Customer Details
 
 ## Power Query
 
