@@ -2,6 +2,7 @@
 
 I created this dashboard as part of the bootcamp by Maven Analytics. This report analyzes data of a fictional company called AdventureWorks Cycles that has multiple products such as Cycles, Jerseys, Caps, Bottles etc. 
 
+[Download dahboard]
 
 ## Power Query
 
